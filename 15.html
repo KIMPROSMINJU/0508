@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var date=new Date();
+        var hours=date.getHours();
+
+        if (hours<6) msg="아직 일어나지 않아도 돼." ;
+        else if (hours<9)  msg="이제 학교 갈 준비를 하거라!" ;
+        else if (hours==12)  msg="밥은 먹고 살자 마!!" ;
+        else if (hours>12&&hours<17)  msg="졸리겠지만 좀만 더 힘을 내@@!!ㅜ" ;
+        else if (hours==18)  msg="저녁도 잘 챙겨." ;
+        else if (hours<21)  msg="너의 자유다..." ;
+        else msg="쿨쿨 꿈나라!" ;
+
+        alert(msg);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
